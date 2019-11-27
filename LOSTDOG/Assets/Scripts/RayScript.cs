@@ -33,9 +33,9 @@ public class RayScript : MonoBehaviour
     int chanceCount = 0;
 
     public int currentTry = 0;     //현재 시도 횟수
-    public int maxTry = 3;    //최대 시도 횟수
+    public int maxTry = 10;    //최대 시도 횟수
 
-    public GameObject dog;
+    //public GameObject dog;
     public GameObject helpmessage;
     public GameObject helpButton;
 
@@ -62,6 +62,10 @@ public class RayScript : MonoBehaviour
         dogScale = transform.localScale;    
         pos = new Vector3(0, 0, 10.0f);  
         startPoint = firstPos;
+        for(int n = 0; n < 6; n++)
+        {
+            mingu[n] = GameObject.Find((n+1).ToString());
+        }
     }
 
     void InitUI()
@@ -122,13 +126,18 @@ public class RayScript : MonoBehaviour
         if (pos != new Vector3(0,0,10.0f))
         {
             FlipDog(isFlip); 
-            float moveSpeed = Time.deltaTime * 2.0f;   
+            float moveSpeed = Time.deltaTime * 2.0f;
             //if (transform.position != pos)
             //    currentTry = currentTry + 1;
-            transform.position = Vector3.MoveTowards(transform.position, pos, moveSpeed); 
-
+            while (true)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, pos, moveSpeed);
+                if (transform.position == pos)
+                    break;
+            }
             if (transform.position == pos && isMoving != 0)     //도착했을 때 실행되는 부분
             {
+                
                 currentTry = currentTry + 1;
                 for (int n = 0; n< buttonNum.Length ;n++)
                     buttonNum[n] = 0;
@@ -162,7 +171,7 @@ public class RayScript : MonoBehaviour
             for(int n = 0; n < mingu.Length; n++)
                 mingu[n].SetActive(false);
     }
-
+    
     void ismax()
     {
         if(currentTry > maxTry)
@@ -176,4 +185,6 @@ public class RayScript : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    
 }
+

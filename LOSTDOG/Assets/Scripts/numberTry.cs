@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 public class numberTry : MonoBehaviour
 {
-	public Text mytext = null;
-    public GameObject dd;
-    public GameObject cc;
+	public Text mytext;
+    public GameObject dog;
+    public GameObject cat;
     public GameObject winObject;
     int current;
     bool isfail;
@@ -20,7 +20,7 @@ public class numberTry : MonoBehaviour
     }
     void Update()
     {
-        isfail = cc.GetComponent<Obs_Cat>().isfailed;
+        isfail = cat.GetComponent<Obs_Cat>().isfailed;
         isWin = winObject.GetComponent<WinObject>().isWin;
         if(isWin == 1)
         {
@@ -30,8 +30,8 @@ public class numberTry : MonoBehaviour
         {
             if (isfail == false)
             {
-                current = dd.GetComponent<RayScript>().currentTry;
-                max = dd.GetComponent<RayScript>().maxTry;
+                current = dog.GetComponent<RayScript>().currentTry;
+                max = dog.GetComponent<RayScript>().maxTry;
                 mytext.text = max + " / " + current;
             }
             else
