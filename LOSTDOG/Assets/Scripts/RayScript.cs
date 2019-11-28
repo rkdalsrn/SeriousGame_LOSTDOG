@@ -113,31 +113,23 @@ public class RayScript : MonoBehaviour
                     hit = Physics2D.Raycast(transform.position, directionOfDog[n], 10f, layerMask);
                     if (hit.collider != null)
                     {
-                        float distance = Mathf.Sqrt((hit.transform.position.x - transform.position.x) * (hit.transform.position.x - transform.position.x)
-                            + (hit.transform.position.y - transform.position.y) * (hit.transform.position.y - transform.position.y));
-
+                        //float distance = Mathf.Sqrt((hit.transform.position.x - transform.position.x) * (hit.transform.position.x - transform.position.x)
+                          //  + (hit.transform.position.y - transform.position.y) * (hit.transform.position.y - transform.position.y));
                         pos = hit.transform.position - directionOfDog[n];
                     }
                 }
-            }
-            
+            }            
         }
         //  최종 이동
-        if (pos != new Vector3(0,0,10.0f))
+
+        while(isMoving == 1)
         {
             FlipDog(isFlip); 
             float moveSpeed = Time.deltaTime * 2.0f;
-            //if (transform.position != pos)
-            //    currentTry = currentTry + 1;
-            while (true)
-            {
-                transform.position = Vector3.MoveTowards(transform.position, pos, moveSpeed);
-                if (transform.position == pos)
-                    break;
-            }
+            transform.position = Vector3.MoveTowards(transform.position, pos, moveSpeed);
+            print("exe");
             if (transform.position == pos && isMoving != 0)     //도착했을 때 실행되는 부분
-            {
-                
+            {                
                 currentTry = currentTry + 1;
                 for (int n = 0; n< buttonNum.Length ;n++)
                     buttonNum[n] = 0;
