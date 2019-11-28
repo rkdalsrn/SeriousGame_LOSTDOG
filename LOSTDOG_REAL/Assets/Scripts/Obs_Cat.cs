@@ -45,8 +45,7 @@ public class Obs_Cat : MonoBehaviour
         if (isMoving == 0 && dog.transform.position == transform.position)
         {
             isfailed = true;
-            print("Fail!");     //debug
-            isComing = 1;      
+            print("Fail!");     //debug    
             StartCoroutine("GameOver");
         }
         else isfailed = false;
@@ -58,7 +57,8 @@ public class Obs_Cat : MonoBehaviour
         {
             dog.GetComponent<RayScript>().mingu[n].SetActive(false);
         }
-        yield return new WaitForSeconds(1.5f);
+        isComing = 1;
+        yield return new WaitForSeconds(1f);
         dog.GetComponent<Animator>().SetFloat("isFailed", 1);
         yield return new WaitForSeconds(2f);
         gamePanel.GetComponent<Animator>().SetFloat("isPanelButtonClicked", 1);
