@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 
 public class Scenario : MonoBehaviour
 {
+    /*
     public int numberOfScene;
     public GameObject[] scene;
     public GameObject fadePanel;
@@ -34,34 +35,23 @@ public class Scenario : MonoBehaviour
         animOfChapterPanel = chapterPanel.GetComponent<Animator>();
         animOfFadePanel = fadePanel.GetComponent<Animator>();
     }
+    */
 
-    public void OnButtonClick()
+    public GameObject nextButton;
+
+    void Start()
     {
-        NextScene();
+        StartCoroutine("LoadSceneAfterTransition");
     }
 
-    void NextScene()
+    public void Next_Click()
     {
-        if (isActive == numberOfScene)
-        {
-            StartCoroutine(LoadSceneAfterTransition());
-        }
-        else
-        {
-            for (int n = 0; n < numberOfScene; n++)
-            {
-                scene[n].SetActive(false);
-            }
-            scene[isActive].SetActive(true);
-            isActive++;
-        }
-        return;     
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private IEnumerator LoadSceneAfterTransition()
     {
-        animOfFadePanel.SetBool("animateOut", true);
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        yield return new WaitForSeconds(23f);
+        nextButton.SetActive(true);
     }
 }

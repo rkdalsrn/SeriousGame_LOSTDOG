@@ -9,7 +9,6 @@ using UnityEngine.SceneManagement;
 public class StartScreen : MonoBehaviour
 {
     public GameObject panel1;
-    public int sceneIndex;
     Animator animator;
 
     void Awake()
@@ -30,7 +29,7 @@ public class StartScreen : MonoBehaviour
         animator.SetBool("animateOut", true);
         yield return new WaitForSeconds(1f);
         //load the scene we want
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 
     public void ExitClick()
