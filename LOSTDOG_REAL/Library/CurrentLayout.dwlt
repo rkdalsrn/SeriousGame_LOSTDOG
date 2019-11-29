@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_MinSize: {x: 440, y: 274}
   m_MaxSize: {x: 18010, y: 10024}
   vertical: 0
-  controlID: 95
+  controlID: 36
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,10 +124,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 715, y: 498}
-  m_MaxSize: {x: 22010, y: 14048}
+  m_MinSize: {x: 717, y: 498}
+  m_MaxSize: {x: 22012, y: 14048}
   vertical: 0
-  controlID: 154
+  controlID: 68
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,8 +147,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_MinSize: {x: 440, y: 498}
   m_MaxSize: {x: 18010, y: 14048}
   vertical: 1
-  controlID: 61
+  controlID: 15
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 62
+  controlID: 16
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c243fdff
+    m_SelectedIDs: 
     m_LastClickedID: -179262
     m_ExpandedIDs: 12eb343c
     m_RenameOverlay:
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -198312
+  m_LastSelectedObjectID: -1070
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -769,20 +769,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resource/Prefab
+    - Assets/Audio
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resource/Prefab
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\GitHub\SeriousGame_LOSTDOG\LOSTDOG_REAL
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa2e0000
-    m_LastClickedID: 11946
-    m_ExpandedIDs: 00000000822e0000b22f0000d62f0000e03000006a310000de360000e0360000e2360000e436000000ca9a3b
+    m_SelectedIDs: ea0a0000
+    m_LastClickedID: 2794
+    m_ExpandedIDs: 00000000f00900004a0b0000780b00000a0d00009c0d00005c2d00005e2d0000602d0000622d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -810,7 +810,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000822e0000d62f0000d8300000e03000006a310000de360000e0360000e2360000e4360000
+    m_ExpandedIDs: 00000000f00900004a0b0000780b00000a0d00009c0d00005c2d00005e2d0000602d0000622d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a00b0000120f0000c00b0000d63100008a300000204200003e2f000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -931,21 +931,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 58f9fcff7cf9fcffacfdfcff54fffcffe8fffcff6837fdfff440fdff8e43fdffbe5afdffceb2fdff9cb3fdfff8defdff28b1feff36cdffff32e2ffff84e3ffffc8faffffe83a0000023b00000c3b0000183b0000c4610000e866000034670000166800002069000096690000
+      m_ExpandedIDs: d2fbffffd4fbffffc60f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: ChapterPanel
-        m_OriginalName: ChapterPanel
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -198312
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
