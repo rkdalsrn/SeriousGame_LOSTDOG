@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class numberTry : MonoBehaviour
 {
-	public Text mytext = null;
+	public Text mytext;
     public GameObject dog;
     public GameObject cat;
     public GameObject winObject;
@@ -16,13 +16,13 @@ public class numberTry : MonoBehaviour
     void Start()
 	{
         dog = GameObject.Find("Dog");
-        cat = GameObject.Find("Cat");
+        //cat = GameObject.Find("Cat");
         winObject = GameObject.Find("WinObject");
         mytext = transform.GetChild(0).GetComponent<Text>();
     }
     void Update()
     {
-        isfail = cat.GetComponent<Obs_Cat>().isfailed;
+        //isfail = cat.GetComponent<Obs_Cat>().isfailed;
         isWin = winObject.GetComponent<WinObject>().isWin;
         if(isWin == 1)
         {
@@ -30,20 +30,26 @@ public class numberTry : MonoBehaviour
         }
         else
         {
-            if (isfail == false)
-            {
-                current = dog.GetComponent<RayScript>().currentTry;
-                max = dog.GetComponent<RayScript>().maxTry;
-                if (current > max-2)
-                    mytext.text= "<color=red>" + current + "</color>" + " / " + max;
-                else
-                    mytext.text = current + " / " + max;
-                
-            }
+            //if (isfail == false)
+            //{
+            //    current = dog.GetComponent<RayScript>().currentTry;
+            //    max = dog.GetComponent<RayScript>().maxTry;
+            //    if (current > max-2)
+            //        mytext.text= "<color=red>" + current + "</color>" + " / " + max;
+            //    else
+            //        mytext.text = current + " / " + max;
+
+            //}
+            //else
+            //{
+            //    mytext.text = "FAILED";
+            //}
+            current = dog.GetComponent<RayScript>().currentTry;
+            max = dog.GetComponent<RayScript>().maxTry;
+            if (current > max - 2)
+                mytext.text = "<color=red>" + current + "</color>" + " / " + max;
             else
-            {
-                mytext.text = "FAILED";
-            }
+                mytext.text = current + " / " + max;
         }
     }
 }

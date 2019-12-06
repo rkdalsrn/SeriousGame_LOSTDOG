@@ -11,6 +11,7 @@ public class RayScript : MonoBehaviour
     public Vector3 firstPos;           //멍멍이 처음 위치
     Vector3 dogScale;           //멍멍이 스케일
     public Vector3 pos;         //도착할 곳
+    public Vector3 undopos;         //전에 도착했더 곳
     RaycastHit2D hit;           //Ray가 닿은 GameObject
     public Vector3[] directionOfDog = { new Vector3(0.5f, 0.75f, 0), new Vector3(1f, 0, 0), new Vector3(0.5f, -0.75f, 0),
                                     new Vector3(-0.5f, -0.75f, 0), new Vector3(-1f, 0, 0), new Vector3(-0.5f, 0.75f, 0) };
@@ -25,6 +26,7 @@ public class RayScript : MonoBehaviour
 
     public GameObject winObject;           // 목표점 받아오기
     public GameObject chapterPanel;        // 패널 받아오기
+    public GameObject undo;
 
     RaycastHit2D hitOfButton;
 
@@ -39,6 +41,7 @@ public class RayScript : MonoBehaviour
     {
         InitDog();
         InitUI();
+        buttonUI();
     }
 
     void FixedUpdate()
@@ -55,6 +58,7 @@ public class RayScript : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         winObject = GameObject.Find("WinObject");
+        undo = GameObject.Find("undo");
         chapterPanel = GameObject.Find("Canvas").transform.Find("ChapterPanel").gameObject;
         firstPos = transform.position;  
         dogScale = transform.localScale;    
@@ -102,6 +106,8 @@ public class RayScript : MonoBehaviour
         {
             if (isMoving == 0 && buttonNum[n] != 0)
             {
+                undo.GetComponent<undoScript>().mingu = 0;
+                undopos = firstPos;
                 isMoving = 1;
                 if (n < 3)
                     isFlip = 1;
@@ -122,7 +128,8 @@ public class RayScript : MonoBehaviour
             
         }
         //  최종 이동
-        if (pos != new Vector3(0,0,10.0f))
+
+        if (pos != new Vector3(0,0,10.0f) && undo.GetComponent<undoScript>().mingu == 0)
         {
             FlipDog(isFlip); 
             moveSpeed = Time.deltaTime * 2.0f;   
@@ -133,7 +140,7 @@ public class RayScript : MonoBehaviour
             {
                 currentTry = currentTry + 1;
                 for (int n = 0; n< buttonNum.Length ;n++)
-                    buttonNum[n] = 0;                
+                    buttonNum[n] = 0;
                 firstPos = transform.position;  //도착 위치를 다음 이동시의 firstPos로 설정
                 isMoving = 0;      //이동이 끝나야 다시 키 받아올 수 있음
             }
