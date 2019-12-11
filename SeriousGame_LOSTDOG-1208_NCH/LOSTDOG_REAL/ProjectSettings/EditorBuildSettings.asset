@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0_Start.unity
+    guid: 6b97481edb41e4f41af916e970f0e399
+  - enabled: 1
+    path: Assets/Scenes/1_Story.unity
+    guid: eb0fa064751d3b245aa11057cdd43057
+  - enabled: 1
+    path: Assets/Scenes/2_Puzzle-1.unity
+    guid: 7628aa1067e1f2043ae241830afde16a
+  - enabled: 1
+    path: Assets/Scenes/2_Puzzle-2.unity
+    guid: 3aff9ce7d2cc14aef999bdf9fd3a7271
+  - enabled: 1
+    path: Assets/Scenes/2_Puzzle-3.unity
+    guid: 023eb4721d4d142e7ad602a1e289f8cb
+  - enabled: 1
+    path: Assets/Scenes/2_Puzzle-4.unity
+    guid: 8004aac02c9f346499f7acbfa5b45c5a
+  - enabled: 1
+    path: Assets/Scenes/2_Puzzle-5.unity
+    guid: 73d54e837abf14ba1b9248c1bbe37ce2
+  - enabled: 1
+    path: Assets/Scenes/2_Story.unity
+    guid: ce69c16373a68da4a998269de16eed9e
+  - enabled: 1
+    path: Assets/Scenes/2_Story 1.unity
+    guid: 777d7a603c7ae4f9abfb4334dd128ac1
+  - enabled: 1
+    path: Assets/Scenes/2_Story 2.unity
+    guid: 0e20cc725a56d4e97a200aeba6de5573
+  - enabled: 1
+    path: Assets/Scenes/3_Puzzle-1.unity
+    guid: ab3f7cd3c83b34a0a9b76b32824f45cc
+  - enabled: 1
+    path: Assets/Scenes/3_Puzzle-2.unity
+    guid: 29080c9d3eadb46e6964944b11507fd3
+  - enabled: 1
+    path: Assets/Scenes/3_Puzzle-3.unity
+    guid: 60f1a79e762f44e3f936901a281b2829
+  - enabled: 1
+    path: Assets/Scenes/3_Puzzle-4.unity
+    guid: 0beaf980b803e425e8c54db2fbe27cfa
+  - enabled: 1
+    path: Assets/Scenes/3_Puzzle-5.unity
+    guid: 562c49754a7644611be0d30b87bfe8b6
+  - enabled: 1
+    path: Assets/Scenes/3_Story.unity
+    guid: 18460f638cb95244c867b114435c7a0f
+  - enabled: 1
+    path: Assets/Scenes/3_Story 1.unity
+    guid: 0fc85227dc4c44ee0a7d4c37ec743249
+  - enabled: 1
+    path: Assets/Scenes/4_Puzzle-1.unity
+    guid: f91f77bc34f2e484182e6134eaf3feef
+  - enabled: 1
+    path: Assets/Scenes/4_Puzzle-2.unity
+    guid: e77b97618d10e441d8e1f3fb9d40e8b1
+  - enabled: 1
+    path: Assets/Scenes/4_Puzzle-3.unity
+    guid: 0e0b9ec83cd884441b61c2505d8f470d
+  - enabled: 1
+    path: Assets/Scenes/4_Puzzle-4.unity
+    guid: 4eacdfe5b8e5b4609ae1cf0f18b27b31
+  - enabled: 1
+    path: Assets/Scenes/4_Puzzle-5.unity
+    guid: 3d16410e6b17d459db67f60b9941d243
+  - enabled: 1
+    path: Assets/Scenes/4_Story.unity
+    guid: cf7a6739a094a487396021604fb801dc
+  - enabled: 1
+    path: Assets/Scenes/4_Story 1.unity
+    guid: ac82339ca63ed454bbf54f1e2450f17d
+  - enabled: 1
+    path: Assets/Scenes/5_Puzzle-1.unity
+    guid: 6d15c246d736447c0a396773721fe991
+  - enabled: 1
+    path: Assets/Scenes/5_Puzzle-2.unity
+    guid: a8e01ba822e97401cbdc261a903b15f0
+  - enabled: 1
+    path: Assets/Scenes/5_Puzzle-3.unity
+    guid: d233ceb840d6145abac79cc17414ad9f
+  - enabled: 1
+    path: Assets/Scenes/5_Puzzle-4.unity
+    guid: bf97f9ae720f048969ce06f68548e863
+  - enabled: 1
+    path: Assets/Scenes/5_Puzzle-5.unity
+    guid: 8981b52a09c764bee93d9bea5c54b106
+  - enabled: 1
+    path: Assets/Scenes/5_Story.unity
+    guid: acf86b7647e01a1468fc8f43a6456c6b
+  - enabled: 1
+    path: Assets/Scenes/5_Story 1.unity
+    guid: ed0ba3878986d458f88f410455c16fd2
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-1.unity
+    guid: cebf4f042eb6a4b7c89fd6309da6f3d6
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-1-1.unity
+    guid: 9fab2e1a2f7e04ffd92cfaf8dc4f7921
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-2.unity
+    guid: 214e1d11d7bf64b8a8e1bf3848e107fa
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-2-1.unity
+    guid: aa0340764da5e416bb53a727abdc8779
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-3.unity
+    guid: 2f68813072bba4defa5727bdb1b8df41
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-3-1.unity
+    guid: e6206a11e91384f7faca351fc295f48f
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-4.unity
+    guid: 69aeba1a42e95483eb7d5fc2d9f12235
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-4-1.unity
+    guid: 41983efbef9964af5b81e8249c59a8d0
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-5.unity
+    guid: 5790a0b0b0a154f4aa8c75fe8dbbe7ab
+  - enabled: 1
+    path: Assets/Scenes/6_Puzzle-5-1.unity
+    guid: 8e73ed9c02c854ce28b52564864194c8
+  - enabled: 1
+    path: Assets/Scenes/6_Story.unity
+    guid: 0459c11a54009f441a76b1e4c4143f55
+  - enabled: 1
+    path: Assets/Scenes/6_Story 1.unity
+    guid: 8b195be20e0bc443c9c01a32a7967161
+  - enabled: 1
+    path: Assets/Scenes/6_Story 2.unity
+    guid: 315e70f8a91b746f088290abfaeb1b70
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-1.unity
+    guid: dad5afb5ca228472bb8a292bd8574d09
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-1-1.unity
+    guid: 37caecf5dad2c4004ab2c7b2b6a39512
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-2.unity
+    guid: 4fb6e5c31cec44d5a8137c8245f7a2ed
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-2-1.unity
+    guid: c5df07a7b929b42bdacbdda022b0c372
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-3.unity
+    guid: 315ccfd8a51514378b44ffa473a01f3f
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-3-1.unity
+    guid: 8e736ea57a6d6468a864328414f6b989
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-4.unity
+    guid: 6db4b959ffe8041d7a61bd27dae04b44
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-4-1.unity
+    guid: 9b2782005159f460e9d8db00e9bb0c35
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-5.unity
+    guid: 27da59f721afe4ada993d3178c73dea6
+  - enabled: 1
+    path: Assets/Scenes/7_Puzzle-5-1.unity
+    guid: 5e342f28efdfd4b8bacea2d3c2574c4c
+  - enabled: 1
+    path: Assets/Scenes/7_Story.unity
+    guid: c3ffb26f440654244853f378d5d988ad
+  - enabled: 1
+    path: Assets/Scenes/7_Story -1.unity
+    guid: 4527b02eb84b842a1a739d3b4e9919fa
+  - enabled: 1
+    path: Assets/Scenes/the end.unity
+    guid: 8219e314e6c9c4b63a3c6a9b1ba40e1f
+  m_configObjects: {}

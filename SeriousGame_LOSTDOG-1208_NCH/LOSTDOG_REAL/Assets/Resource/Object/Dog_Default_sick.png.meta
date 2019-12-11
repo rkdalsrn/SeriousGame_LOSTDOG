@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: 473eee652f649468d89af962bc727a31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4815231456238679662
+    second: Dog_Default_sick_0
+  - first:
+      213: -5167483073349830443
+    second: Dog_Default_sick_1
+  - first:
+      213: 1580514200192665338
+    second: Dog_Default_sick_2
+  - first:
+      213: 4386473404067341251
+    second: Dog_Default_sick_3
+  - first:
+      213: -6461999426192332635
+    second: Dog_Default_sick_4
+  - first:
+      213: 1206283869266292556
+    second: Dog_Default_sick_5
+  - first:
+      213: 5051644079053461155
+    second: Dog_Default_sick_6
+  - first:
+      213: 5363848673841390889
+    second: Dog_Default_sick_7
+  - first:
+      213: 9185546197510449091
+    second: Dog_Default_sick_8
+  - first:
+      213: 6375227644079126452
+    second: Dog_Default_sick_9
+  - first:
+      213: 3734429416872311335
+    second: Dog_Default_sick_10
+  - first:
+      213: 1331311975105854862
+    second: Dog_Default_sick_11
+  - first:
+      213: 1399303758059686543
+    second: Dog_Default_sick_12
+  - first:
+      213: -6844013659069251370
+    second: Dog_Default_sick_13
+  - first:
+      213: -1709595801798550155
+    second: Dog_Default_sick_14
+  - first:
+      213: 6978676908440567756
+    second: Dog_Default_sick_15
+  - first:
+      213: 6887196339296820615
+    second: Dog_Default_sick_16
+  - first:
+      213: 1635480326271202633
+    second: Dog_Default_sick_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dog_Default_sick_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1551
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a818831a87a4646c19fee136be558208
+      internalID: -4815231456238679662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1359
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7775f04703dc4d5dad188e401f3b70f
+      internalID: 1580514200192665338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1359
+        width: 208
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9f921b358674cfbb32bd06beb40131
+      internalID: 4386473404067341251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1167
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846f19ac61ae14e70bde12b8903abed7
+      internalID: -6461999426192332635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1167
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac5d5aac7eb04238bac59d9070d8c40
+      internalID: 1206283869266292556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 975
+        width: 201
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a7e06089794a33bcf3ee0be142642
+      internalID: 5051644079053461155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 975
+        width: 201
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a564087c4c7c442ed89315effd264879
+      internalID: 5363848673841390889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 783
+        width: 201
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31181cf50f3b24042943eca8151f1a9f
+      internalID: 9185546197510449091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 783
+        width: 208
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dcad4e9f0834a5d8712da7dd3e9ae5
+      internalID: 6375227644079126452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 591
+        width: 201
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137728e29c4bd4836821789574f00c06
+      internalID: 3734429416872311335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_11
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 591
+        width: 201
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7b3cf8d8850435db3ff273b471020d
+      internalID: 1331311975105854862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 399
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4588f9b358e54ceabd417d19b6e2701
+      internalID: 1399303758059686543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 399
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71fe5c77bbc34dcb9b0d37f361b8655
+      internalID: -6844013659069251370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 207
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b7e326514284df49b54b5788f8b7a0
+      internalID: -1709595801798550155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_15
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 207
+        width: 208
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55614ecf4c744299a0c7430d151bdef
+      internalID: 6978676908440567756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 15
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e25b05ce7e3f4800851d384a4248ad1
+      internalID: 6887196339296820615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1551
+        width: 201
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd8efa0124dc43ebaece835160baf58
+      internalID: -5167483073349830443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Default_sick_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1538
+        width: 221
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a65aacde06472e9eac13874a06496
+      internalID: 1635480326271202633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
