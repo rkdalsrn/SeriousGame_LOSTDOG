@@ -938,18 +938,18 @@ PrefabInstance:
     - target: {fileID: 1844466017960125514, guid: 5ef72bfd67cae8d4887fd36149ede691,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.37
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1844466017960125514, guid: 5ef72bfd67cae8d4887fd36149ede691,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.37
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1844466017960125515, guid: 5ef72bfd67cae8d4887fd36149ede691,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6035862510052746230, guid: f380c4fccbb6b45638dfd9424f2b8aa0,
+      objectReference: {fileID: 21300000, guid: 2776be2548b435b45b8a631b35c46e21,
         type: 3}
     - target: {fileID: 1844466017960125516, guid: 5ef72bfd67cae8d4887fd36149ede691,
         type: 3}
@@ -1005,7 +1005,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: c144124d41a4b43edae6cbb454dbe634, type: 2}
+      objectReference: {fileID: 9100000, guid: be045654e5a1d9b44bcf3f2475bb4945, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef72bfd67cae8d4887fd36149ede691, type: 3}
 --- !u!1 &1595965539 stripped
@@ -8639,7 +8639,7 @@ MonoBehaviour:
   dog: {fileID: 0}
   gamePanel: {fileID: 0}
   cataudio: {fileID: 0}
-  jumSound: {fileID: 0}
+  jumSound: {fileID: 8300000, guid: ccf311b31e1314af6b3027fb291040d2, type: 3}
   isfailed: 0
   startPoint: {x: 0, y: 0, z: 0}
 --- !u!95 &5609285140438526480

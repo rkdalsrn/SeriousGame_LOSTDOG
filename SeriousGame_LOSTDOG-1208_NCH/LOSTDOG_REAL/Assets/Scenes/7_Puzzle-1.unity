@@ -332,6 +332,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5609285139939853665, guid: 701954c0476415d4aa9e25d68a8fcade,
+        type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5609285139939853667, guid: 701954c0476415d4aa9e25d68a8fcade,
         type: 3}
       propertyPath: m_Name
@@ -7637,7 +7642,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e1e9df73b0f1d413e85db3208046a21a,
+      objectReference: {fileID: 21300000, guid: e9b4a054b144443e69a30055d8ccf018,
         type: 3}
     - target: {fileID: 4774594482618338039, guid: 79c677efc60a0de47924fe6598f41544,
         type: 3}

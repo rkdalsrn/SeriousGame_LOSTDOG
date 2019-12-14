@@ -2499,7 +2499,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -100
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.13725491, g: 0.3019608, b: 0.16470589, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2569,6 +2569,27 @@ PrefabInstance:
     - target: {fileID: 4774594482618338037, guid: 79c677efc60a0de47924fe6598f41544,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774594482618338037, guid: 79c677efc60a0de47924fe6598f41544,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774594482618338037, guid: 79c677efc60a0de47924fe6598f41544,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774594482618338038, guid: 79c677efc60a0de47924fe6598f41544,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed64fed0b0b0745b388062993b1bfbfe,
+        type: 3}
+    - target: {fileID: 4774594482618338040, guid: 79c677efc60a0de47924fe6598f41544,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4774594482618338041, guid: 79c677efc60a0de47924fe6598f41544,
@@ -3249,7 +3270,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1950697139}
         m_MethodName: Restart_Click
         m_Mode: 1
         m_Arguments:

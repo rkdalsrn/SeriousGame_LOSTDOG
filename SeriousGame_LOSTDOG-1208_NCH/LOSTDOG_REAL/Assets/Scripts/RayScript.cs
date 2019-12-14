@@ -46,11 +46,11 @@ public class RayScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        IsMax();
         buttonUI();
         MakeDogMove();
         SetAnimation();
         IsWin();
+        IsMax();
     }
 
     //초기 설정
@@ -175,9 +175,13 @@ public class RayScript : MonoBehaviour
 
     void IsMax()
     {
-        if (currentTry > maxTry)
+        if (currentTry >= maxTry)
         {
-            StartCoroutine(FailedByCount());
+            if (transform.position != winObject.transform.position)
+            {
+                StartCoroutine(FailedByCount());
+            }
+
         }
     }
 
